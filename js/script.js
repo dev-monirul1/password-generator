@@ -1,9 +1,9 @@
-// const lengthValue = document.getElementById('lengthValue');
-// const lengthInput = document.getElementById('length');
-// const generateBtn = document.getElementById('generateBtn');
-// const passwordInput = document.getElementById('password');
-// const message = document.getElementById("message")
-// const copyBtn = document.getElementById('copyBtn');
+const lengthValue = document.getElementById('lengthValue');
+const lengthInput = document.getElementById('length');
+const generateBtn = document.getElementById('generateBtn');
+const passwordInput = document.getElementById('password');
+const message = document.getElementById("message")
+const copyBtn = document.getElementById('copyBtn');
 
 // const characters = {
 //     lowercase: 'abcdefghijklmnopqrstuvwxyz',
