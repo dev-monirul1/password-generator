@@ -12,9 +12,9 @@ const copyBtn = document.getElementById('copyBtn');
 //     symbols: '!@#$%^&*()_+~`|}{[]:;?><,./-=',
 // };
 
-// const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz" + 
-// "0123456789" + 
-// "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz" + 
+"0123456789" + 
+"!@#$%^&*()_+~`|}{[]:;?><,./-=";
 
 // password length change
 // lengthInput.addEventListener('input', () => {
@@ -47,7 +47,11 @@ const copyBtn = document.getElementById('copyBtn');
 //         message.textContent = "Please generate a password first!";
 //         return;
 //     } 
-   
+    // else {
+    //     password.select();
+    //     document.execCommand('copy');
+    //     message.textContent = "Password copied to clipboard!";
+    // }
 
 //     navigator.clipboard.writeText(passwordInput.value)
 //     message.textContent = "Password copied to clipboard!";
