@@ -85,7 +85,7 @@ button:hover {
 } 
 
 
-/* .settings {
+.settings {
     margin-bottom: 21px;
 }
 
@@ -126,4 +126,4 @@ button:hover {
 
 #message:not(:empty) {
     margin-top: 12px;
-} */
+}
