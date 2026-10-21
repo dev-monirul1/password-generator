@@ -17,20 +17,20 @@ const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz" +
 "!@#$%^&*()_+~`|}{[]:;?><,./-=";
 
 // password length change
-// lengthInput.addEventListener('input', () => {
-//     lengthValue.textContent = lengthInput.value;
-// });
+lengthInput.addEventListener('input', () => {
+    lengthValue.textContent = lengthInput.value;
+});
 
 // generate password
-// function generatePassword() {
-//     const length = Number(lengthInput.value);
-//     let password = '';
-//     for (let i = 0; i < length; i++) {
-//         const randomIndex = Math.floor(Math.random() * characters.length);
-//         password += characters[randomIndex];
-//     }
-//     return password;
-// }
+function generatePassword() {
+    const length = Number(lengthInput.value);
+    let password = '';
+    for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        password += characters[randomIndex];
+    }
+    return password;
+}
 
 // generate button
 // generateBtn.addEventListener('click', () => {
