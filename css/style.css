@@ -1,6 +1,6 @@
 
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -82,7 +82,7 @@ button {
 
 button:hover {
     background-color: #2563eb;
-} */
+} 
 
 
 /* .settings {
