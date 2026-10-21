@@ -33,11 +33,11 @@ function generatePassword() {
 }
 
 // generate button
-// generateBtn.addEventListener('click', () => {
-//     const pasword = generatePassword();
-//     passwordInput.value = pasword;
-//     message.textContent = ""
-// });
+generateBtn.addEventListener('click', () => {
+    const pasword = generatePassword();
+    passwordInput.value = pasword;
+    message.textContent = ""
+});
 
 
 
