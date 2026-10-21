@@ -42,17 +42,17 @@ generateBtn.addEventListener('click', () => {
 
 
 // copy button
-// copyBtn.addEventListener('click', () => {
-//     if (passwordInput.value === "") {
-//         message.textContent = "Please generate a password first!";
-//         return;
-//     } 
+copyBtn.addEventListener('click', () => {
+    if (passwordInput.value === "") {
+        message.textContent = "Please generate a password first!";
+        return;
+    } 
     // else {
     //     password.select();
     //     document.execCommand('copy');
     //     message.textContent = "Password copied to clipboard!";
     // }
 
-//     navigator.clipboard.writeText(passwordInput.value)
-//     message.textContent = "Password copied to clipboard!";
-// });
+    navigator.clipboard.writeText(passwordInput.value)
+    message.textContent = "Password copied to clipboard!";
+});
